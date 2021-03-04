@@ -1,12 +1,13 @@
 {
   "expo": {
-    "name": "chat",
+    "name": "Wired Brain Chat",
+    "description": "Coffee drinkers unite!",
     "slug": "chat",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/wired-brain-icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/wired-brain-coffee-logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -14,16 +15,20 @@
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
-      "**/*"
+      "**/*",
+      "assets/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "icon": "./assets/wired-brain-icon-ios.png",
+      "bundleIdentifier": "com.wiredbrain.chat"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.wiredbrain.chat"
     },
     "web": {
       "favicon": "./assets/favicon.png"
